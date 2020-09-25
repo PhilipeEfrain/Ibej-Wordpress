@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" wp-template wp-template-export-as="index.php" wp-template-define-master-page="true">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta charset="UTF-8">
+        <title>Blog | Safs - HTML</title>
+        <!-- ====== Google Fonts ====== -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+        <!-- ====== ALL CSS ====== -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/lightbox.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    </head>
+    <body data-spy="scroll" data-target=".navbar-nav">
+        <!-- ====== Header ====== -->
+        <header id="header" class="header">
+            <!-- ====== Navbar ====== -->
+            <nav class="navbar navbar-expand-lg fixed-top" wp-cz-section="logo" wp-cz-section-title="Logo">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand logo" href="index.html"> <img src="assets/images/proposta_logo_branco.png" alt="logo" width="200" height="auto !important" cms-editable="logo_img" cms-editable-type="image" cms-editable-label="Logo" cms-editable-section="logo"> </a>
+                    <!-- // Logo -->
+                    <!-- Mobile Menu -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
+                        <span><i class="fa fa-bars"></i></span>
+                    </button>
+                    <!-- Mobile Menu -->
+                    <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto" cms-menu="primary">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">SERVICE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pr0" href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- ====== // Navbar ====== -->
+        </header>
+        <section wp-site-content>
+            <header id="imagemdefundo" class="header" data-pg-name="Imagem de fundo">
+                <!-- ====== Navbar ====== -->
+                <!-- ====== // Navbar ====== -->
+                <!-- Page Title -->
+                <div class="page-title bg-img section-padding bg-overlay" style="background-image: url(assets/images/breadcrumb.jpg)">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 text-center">
+                                <h2 cms-site-desc>Blog</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- // Page Title -->
+            </header>
+            <section class="blog-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="blog-area">
+                                <div class="row">
+                                    <!-- Single Blog -->
+                                    <div class="col-sm-6" cms-post="query" cms-post-type="post" cms-post-type-order="date DESC">
+                                        <div class="single-blog">
+                                            <div class="blog-thumb" style="background-image: url(assets/images/blog/img-1.jpg)" wp-the-post-thumbnail="post-thumbnail" cms-post-link="not_singular"></div>
+                                            <h4 class="blog-title"><a href="single-blog.html" cms-post-title>Full Responsive</a></h4>
+                                            <p class="blog-meta" cms-post-date><a href="#" cms-author-field="display_name" cms-author-field-type="content" cms-author-field-type-2="link" cms-author-field-2="posts_url">AL Mamun</a>, 22 FEB 2018</p>
+                                            <p cms-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                            <a href="" class="button" cms-post-link>Leia mais</a>
+                                        </div>
+                                    </div>
+                                    <!-- Single Blog -->
+                                    <!-- Single Blog -->
+                                    <div class="col-sm-6" wp-loop-skip>
+                                        <div class="single-blog">
+                                            <div class="blog-thumb" style="background-image: url(assets/images/blog/img-2.jpg)"></div>
+                                            <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                            <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                            <a href="single-blog.html" class="button">Read More</a>
+                                        </div>
+                                    </div>
+                                    <!-- Single Blog -->
+                                    <!-- Single Blog -->
+                                    <div class="col-sm-6" wp-loop-skip>
+                                        <div class="single-blog">
+                                            <div class="blog-thumb" style="background-image: url(assets/images/blog/img-3.jpg)"></div>
+                                            <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                            <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                            <a href="single-blog.html" class="button">Read More</a>
+                                        </div>
+                                    </div>
+                                    <!-- Single Blog -->
+                                    <!-- Single Blog -->
+                                    <div class="col-sm-6" wp-loop-skip>
+                                        <div class="single-blog">
+                                            <div class="blog-thumb" style="background-image: url(assets/images/blog/img-4.jpg)"></div>
+                                            <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                            <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                            <a href="#" class="button">Read More</a>
+                                        </div>
+                                    </div>
+                                    <!-- Single Blog -->
+                                    <!-- Single Blog -->
+                                    <div class="col-sm-6" wp-loop-skip>
+                                        <div class="single-blog">
+                                            <div class="blog-thumb" style="background-image: url(assets/images/blog/img-5.jpg)"></div>
+                                            <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                            <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                            <a href="#" class="button">Read More</a>
+                                        </div>
+                                    </div>
+                                    <!-- Single Blog -->
+                                    <!-- Single Blog -->
+                                    <div class="col-sm-6" wp-loop-skip>
+                                        <div class="single-blog">
+                                            <div class="blog-thumb" style="background-image: url(assets/images/blog/img-6.jpg)"></div>
+                                            <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                            <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                            <a href="single-blog.html" class="button">Read More</a>
+                                        </div>
+                                    </div>
+                                    <!-- Single Blog -->
+                                    <!-- Single Blog -->
+                                    <div class="col-sm-6" wp-loop-skip>
+                                        <div class="single-blog">
+                                            <div class="blog-thumb" style="background-image: url(assets/images/blog/img-7.jpg)"></div>
+                                            <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                            <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                            <a href="single-blog.html" class="button">Read More</a>
+                                        </div>
+                                    </div>
+                                    <!-- Single Blog -->
+                                    <!-- Single Blog -->
+                                    <div class="col-sm-6" wp-loop-skip>
+                                        <div class="single-blog">
+                                            <div class="blog-thumb" style="background-image: url(assets/images/blog/img-8.jpg)"></div>
+                                            <h4 class="blog-title"><a href="single-blog.html">Full Responsive</a></h4>
+                                            <p class="blog-meta"><a href="#">AL Mamun</a>, 22 FEB 2018</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique velit, officiis non.</p>
+                                            <a href="single-blog.html" class="button">Read More</a>
+                                        </div>
+                                    </div>
+                                    <!-- Single Blog -->
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6 text-center">
+                                        <a href="#" class="button blog-btn">Load More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sidebar -->
+                        <!-- // Sidebar -->
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- ====== // Header ====== -->
+        <!-- ====== Footer Area ====== -->
+        <!-- ====== // Footer Area ====== -->
+        <!-- ====== ALL JS ====== -->
+        <footer class="footer-area" cms-section="footer" cms-section-title="Footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="copyright-text">
+                            <p class="text-white" cms-editable="footer_direitos" cms-editable-type="content" cms-editable-label="Direitos" cms-editable-section="footer">&copy; 2018 <a href="https://www.begindot.com/">A Template Designed by Begindot</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/lightbox.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.mixitup.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/typed.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
